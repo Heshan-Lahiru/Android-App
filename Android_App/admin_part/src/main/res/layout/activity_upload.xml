@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/adminhome"
+    tools:context=".UploadActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="270dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadownername"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Driver Name / Phone Number"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadvehiclebrand"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Vehicle Brand"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploardvehicleRTO"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Vehicle Price for 1day"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploardvehiclenumber"
+            android:background="@drawable/green_border"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Vehicle Number "
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="start|center_vertical"
+            android:padding="16dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/saveButton"
+            android:text="Save"
+            android:backgroundTint="@color/green"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cornerRadius="20dp"/>
+
+
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>
